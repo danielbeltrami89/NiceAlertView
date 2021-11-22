@@ -5,13 +5,13 @@ Pod::Spec.new do |spec|
   spec.summary      = "A short description of NiceAlertView."
   spec.description  = "Betters e nice AlertViews"
 
-  spec.homepage     = "http://github.com/NiceAlertView"
+  spec.homepage     = "https://github.com/danielbeltrami89/NiceAlertView"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.author       = { "Daniel Beltrami" => "moraesdan89@gmail.com" }
 
   spec.platform     = :ios, "10.0"
 
-  spec.source       = { :git => "http://github.com/NiceAlertView.git",
+  spec.source       = { :git => "https://github.com/danielbeltrami89/NiceAlertView.git",
                         :tag => "#{spec.version}" }
 
   spec.source_files        = "NiceAlertView/**/*.{h,m,swift}"
