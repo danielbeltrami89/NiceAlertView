@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4EB87FB4E629D384D9F6742C /* Pods_NiceAlertViewSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8216408E42C03B14481CEB /* Pods_NiceAlertViewSample.framework */; };
 		F8DA3B43274AE51100B87B80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DA3B42274AE51100B87B80 /* AppDelegate.swift */; };
 		F8DA3B45274AE51100B87B80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DA3B44274AE51100B87B80 /* SceneDelegate.swift */; };
 		F8DA3B47274AE51100B87B80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DA3B46274AE51100B87B80 /* ViewController.swift */; };
@@ -18,7 +17,6 @@
 
 /* Begin PBXFileReference section */
 		1479943989E4B91F96ED8C7E /* Pods-NiceAlertViewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceAlertViewSample.debug.xcconfig"; path = "Target Support Files/Pods-NiceAlertViewSample/Pods-NiceAlertViewSample.debug.xcconfig"; sourceTree = "<group>"; };
-		4D8216408E42C03B14481CEB /* Pods_NiceAlertViewSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceAlertViewSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9574AF44889023FD6EBABD1A /* Pods-NiceAlertViewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceAlertViewSample.release.xcconfig"; path = "Target Support Files/Pods-NiceAlertViewSample/Pods-NiceAlertViewSample.release.xcconfig"; sourceTree = "<group>"; };
 		F8DA3B2C274AE02300B87B80 /* NiceAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NiceAlertView.h; sourceTree = "<group>"; };
 		F8DA3B2D274AE02300B87B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EB87FB4E629D384D9F6742C /* Pods_NiceAlertViewSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +44,6 @@
 		9915E20ADAB1F04FB7A4419E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4D8216408E42C03B14481CEB /* Pods_NiceAlertViewSample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -58,7 +54,6 @@
 				1479943989E4B91F96ED8C7E /* Pods-NiceAlertViewSample.debug.xcconfig */,
 				9574AF44889023FD6EBABD1A /* Pods-NiceAlertViewSample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

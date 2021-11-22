@@ -17,7 +17,10 @@ public class PopUpView: BasePopUp {
         super.init(frame: frame)
         
         // Montar a stack com os itens
-        self.setupStack(views: [self.title, self.subTitle, self.confirmBtn, self.cancelBtn])
+        self.setupStack(views: [self.title,
+                                self.viewSubTitle,
+                                self.confirmBtn,
+                                self.cancelBtn])
     }
     
     required init?(coder: NSCoder) {

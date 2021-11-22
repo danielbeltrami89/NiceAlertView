@@ -39,6 +39,11 @@ public class BasePopUp: UIView {
         return label
     }()
     
+    let viewSubTitle: UIView = {
+        let view = UIView()
+        return view
+    }()
+    
     let confirmBtn: UIButton = {
         let button = UIButton()
         button.backgroundColor = .blue
@@ -105,8 +110,15 @@ public class BasePopUp: UIView {
             make.height.greaterThanOrEqualTo(34)
         }
         
-        self.subTitle.snp.makeConstraints { (make) in
+        self.viewSubTitle.snp.makeConstraints { (make) in
             make.height.greaterThanOrEqualTo(40)
+        }
+        
+        self.viewSubTitle.addSubview(subTitle)
+        self.subTitle.snp.makeConstraints { (make) in
+            make.top.equalToSuperview()
+            make.bottom.equalToSuperview().inset(12)
+            make.width.equalToSuperview()
         }
         
         self.confirmBtn.snp.makeConstraints { (make) in
@@ -114,7 +126,7 @@ public class BasePopUp: UIView {
         }
         
         self.cancelBtn.snp.makeConstraints { (make) in
-            make.height.equalTo(40)
+            make.height.equalTo(30)
         }
         
         self.field.snp.makeConstraints { (make) in
