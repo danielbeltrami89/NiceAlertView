@@ -1,12 +1,14 @@
 # NiceAlertView
 ### _Nice and beautiful AlertView for your iOS project_
+NiceAlertView is a Swift framework that can increase time of development and show nice custom AlertsViews
 
 Screenshots
 ---------
-![NiceAlertView Screenshots](nice_alertview_screenshot.png)
+<img src="nice_alertview_screenshot.png" width="200">
 
-NiceAlertView is a Swift framework that can increase time of development and show nice custom AlertsViews
 
+Usage
+---------
 ```swift
 let popUp = PopUpView()
 popUp.setup(title: "Title",
