@@ -19,6 +19,20 @@ popUp.setup(title: "Title",
 self.view.addSubview(popUp)
 ```
 
+Setup Instructions
+------------------
+
+[CocoaPods](http://cocoapods.org)
+------------------
+
+To integrate NiceAlertView into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+pod 'NiceAlertView'
+```
+
+and in your code add `import NiceAlertView`.
+
 ## License
 
 MIT
