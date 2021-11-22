@@ -1,0 +1,23 @@
+PODS:
+  - NiceAlertView (0.0.1):
+    - SnapKit (~> 5.0)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - NiceAlertView (from `.`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  NiceAlertView:
+    :path: "."
+
+SPEC CHECKSUMS:
+  NiceAlertView: 9509af40fd7d0416f16926ccae21bed332ef24ac
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 21c3a5bafb0948ea6a8abd783c1ccbd48ea037e5
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-NiceAlertViewSample/Pods-NiceAlertViewSample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/NiceAlertView/NiceAlertView.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

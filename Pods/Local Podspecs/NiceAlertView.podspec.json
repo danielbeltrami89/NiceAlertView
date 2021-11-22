@@ -1,0 +1,28 @@
+{
+  "name": "NiceAlertView",
+  "version": "0.0.1",
+  "summary": "A short description of NiceAlertView.",
+  "description": "Betters e nice AlertViews",
+  "homepage": "http://github.com/NiceAlertView",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "Daniel Beltrami": "moraesdan89@gmail.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "http://github.com/NiceAlertView.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "NiceAlertView/**/*.{h,m,swift}",
+  "public_header_files": "NiceAlertView/**/*.h",
+  "dependencies": {
+    "SnapKit": [
+      "~> 5.0"
+    ]
+  }
+}

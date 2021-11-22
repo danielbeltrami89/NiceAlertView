@@ -1,0 +1,6 @@
+framework module NiceAlertView {
+  umbrella header "NiceAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}
