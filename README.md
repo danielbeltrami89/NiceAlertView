@@ -28,7 +28,7 @@ Setup Instructions
 To integrate NiceAlertView into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
- pod 'NiceAlertView', git: 'https://github.com/danielbeltrami89/NiceAlertView.git', branch: 'main'
+ pod 'NiceAlertView'
  ```
 
 and in your code add `import NiceAlertView`.
